@@ -34,8 +34,8 @@ export const styles = StyleSheet.create({
     color: '#0065FF',
     fontWeight: '500',
     marginTop: 8,
-    textDecorationLine:'underline',
-    fontWeight: 'bold'
+    textDecorationLine: 'underline',
+    fontWeight: 'bold',
   },
   smallIconOuterView: {
     flexDirection: 'row',
@@ -65,8 +65,9 @@ export const styles = StyleSheet.create({
     height: '34%',
   },
   releaseContainer: {
-    flexDirection: 'row'
+    flexDirection: 'row',
+    marginTop: 10,
   },
-  releaseText: { fontWeight: 'bold', fontSize: 16 },
-  releaseDate: { fontSize: 16, marginLeft: 8}
+  releaseText: {fontWeight: 'bold', fontSize: 16},
+  releaseDate: {fontSize: 16, marginLeft: 8},
 });
